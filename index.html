@@ -3,10 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <!-- Font Awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/66eaabc9d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Panto Furniture</title>
   </head>
   <body>
-    HI I am Live
+    <header id="header">
+      <nav>
+        <h1 class="logo">Panto</h1>
+        <ul class="nav__items">
+          <li>
+            <a href="#" class="nav__link"
+              >Furniture
+
+              <i class="fa-solid fa-sm fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">Shop</a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav__cart">
+          <i class="fa-solid fa-bag-shopping fa-xl" style="color: #ffffff"></i>
+          <span class="nav__cart--quantity">0</span>
+        </div>
+      </nav>
+      <section class="hero">
+        <h1 class="hero__heading">
+          Make your interior more minimalistic & modern
+        </h1>
+        <p class="hero__paragraph">
+          Turn your room with panto into a lot more minimalist <br />
+          and modern with ease and speed
+        </p>
+
+        <div class="hero__search-box">
+          <input
+            type="text"
+            placeholder="Search furniture"
+            class="hero__search-box--input"
+          />
+          <button class="hero__search-box--btn">
+            <i
+              class="fa-solid fa-magnifying-glass fa-lg"
+              style="color: #ffffff"
+            ></i>
+          </button>
+        </div>
+      </section>
+    </header>
   </body>
 </html>
