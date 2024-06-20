@@ -1,0 +1,17 @@
+%heading {
+    font-family: $font;
+    font-weight: 600;
+}
+
+.heading-1 {
+    @extend %heading;
+    font-size: 4.2rem;
+    color: $color-black;
+    line-height: 115%;
+}
+
+.heading-2 {
+    @extend %heading;
+    font-size: 2.1rem;
+    color: $color-secondary;
+}

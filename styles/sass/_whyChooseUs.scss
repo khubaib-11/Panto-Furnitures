@@ -1,0 +1,28 @@
+.why-choose-us {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+
+    & h1 {
+        margin-right: auto;
+    }
+
+    &__reason {
+        max-width: 28rem;
+
+        &--paragraph {
+            margin-top: 2rem;
+            margin-bottom: 1.4rem;
+        }
+
+        &--btn {
+            color: $color-primary;
+            cursor: pointer;
+        }
+    }
+}

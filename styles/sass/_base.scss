@@ -3,8 +3,11 @@ $color-primary: #E58411;
 $color-primary-light: #F6973F;
 $color-secondary: #0D1B39;
 $color-white : #fff;
-$color-dark: #1E1E1E;
-$color-grey-light-1: #EEEEEE;
+$color-white-2 : #F7F7F7;
+$color-white-3 : #FAFAFA;
+$color-black: #1E1E1E;
+$color-grey: #EEEEEE;
+$color-grey-2: #8D8D8D;
 // FONT VARIABLES
 $font: "Questrial", sans-serif;
 
@@ -37,4 +40,14 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.6;
+}
+
+.icon-button {
+    font-family: $font;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border: none;
+    background-color: transparent;
+    color: $color-primary;
+    cursor: pointer;
 }
